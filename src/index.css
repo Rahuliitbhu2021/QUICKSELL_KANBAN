@@ -1,0 +1,197 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    background-color: #ffffff;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown-option {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-option label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .dropdown-option select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown-content select:hover {
+    background-color: #f1f1f1;
+  }
+
+  .body-container{
+    background-color: #f4f5f9;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    height:auto;
+    gap:14px;
+}
+  /* GridComp */
+
+.container {
+  height: 100%;
+  padding: 20px 0;
+}
+
+.header_2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+
+.user-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.avatar {
+  width: 1.25rem;
+  height: 1.25rem; 
+  border-radius: 50%;
+}
+
+.card-count {
+  color: #828387;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+
+.card-section {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1px; 
+}
+
+/* Card */
+
+.card {
+  background-color: white;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  box-shadow: 0px 0px 2px;
+  margin: 6px 0;
+  padding: 12px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* Header Row */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  color: #828387;
+}
+
+.name-label {
+  font-size: 10px;
+}
+
+.avatar-image {
+  width: 20px; /* equivalent to w-5 */
+  height: 20px; /* equivalent to h-5 */
+  border-radius: 50%;
+}
+
+/* Info Row */
+.info-row {
+  display: flex;
+  gap: 12px; /* equivalent to gap-4 */
+  align-items:center;
+  margin-top: 6px; /* equivalent to mt-2 */
+  font-size: 12px; /* equivalent to text-md */
+}
+
+.status-icon {
+  width: 12px;
+  height: 12px;
+}
+
+.action-label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Tag Row */
+.tag-row {
+  display: flex;
+  gap: 4px; /* equivalent to gap-1 */
+  margin-top: 4px; /* equivalent to mt-1 */
+}
+
+.status-badge {
+  width: 12px; /* equivalent to w-6 */
+  height: 12px; /* equivalent to h-6 */
+  border: 1px solid #ccc; /* equivalent to border-1 */
+  border-radius: 8px; /* equivalent to rounded-lg */
+  padding: 4px; 
+}
+
+.tag-item {
+  display: flex;
+  align-items:center;
+  gap: 4px;
+  border: 1px solid #ccc;
+  border-radius: 8px; 
+  padding: 2px 6px; 
+  font-size: 12px;
+}
+
+.circle-icon {
+  width: 12px;
+  height: 12px;
+  background-color: #828387;
+  border-radius: 50%;
+}
+
+.tag-label {
+  font-size: 10px; 
+  color: #828387;
+}
